@@ -8,6 +8,10 @@
 </body>
 
 <template name="main">
-<textarea class="left">{{get 'value'}}</textarea>
-<div class="right">{{#markdown}}{{get 'value'}}{{/markdown}}</div>
+    {{#if loggedIn}}
+    <textarea class="left">{{get 'value'}}</textarea>
+    <div class="right">{{#markdown}}{{get 'value'}}{{/markdown}}</div>
+    {{else}}
+    <h1>Login first</h1>
+    {{/if}}
 </template>
