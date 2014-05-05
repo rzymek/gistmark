@@ -1,0 +1,12 @@
+<head>
+    <title>gistmark</title>
+</head>
+
+<body>
+    {{> main}}
+</body>
+
+<template name="main">
+<textarea class="left">{{get 'value'}}</textarea>
+<div class="right">{{#markdown}}{{get 'value'}}{{/markdown}}</div>
+</template>

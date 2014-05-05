@@ -1,0 +1,18 @@
+html,body { 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+}
+.left,.right { 
+    position: fixed;
+    top:0;
+    width:49%;
+    height:100%;
+    padding: 3px;
+}
+.left {    
+    left:0;
+}
+.right {
+    right:0;    
+}

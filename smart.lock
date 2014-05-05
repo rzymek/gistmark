@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "meteor-markdown": {}
+    },
+    "packages": {
+      "meteor-markdown": {
+        "git": "https://github.com/yubozhao/meteor-markdown.git",
+        "tag": "v0.0.2",
+        "commit": "6dfd30fefe87a3bc25f70db3bf4b82c94f6a48db"
+      }
+    }
+  }
+}
