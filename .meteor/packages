@@ -8,3 +8,4 @@ autopublish
 insecure
 meteor-markdown
 accounts-github
+accounts-ui
