@@ -7,3 +7,4 @@ standard-app-packages
 meteor-markdown
 accounts-github
 accounts-ui
+accounts-password
